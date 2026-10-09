@@ -1,0 +1,7 @@
+.venv/
+venv/
+gemini-env/
+__pycache__/
+*.pyc
+.env
+.env.*
