@@ -3,5 +3,11 @@ venv/
 gemini-env/
 __pycache__/
 *.pyc
+
+# Secrets
 .env
 .env.*
+!.env.example
+
+# Generated output
+generated/

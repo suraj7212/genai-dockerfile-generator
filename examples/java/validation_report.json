@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-10-16T17:21:38.647675+00:00",
+  "language": "java",
+  "model": "gemini-3.8-flash",
+  "dockerfile": "generated/java/Dockerfile",
+  "validation_passed": false,
+  "finding_count": 1,
+  "findings": [
+    {
+      "code": "DL3066",
+      "column": 1,
+      "file": "generated/java/Dockerfile",
+      "level": "info",
+      "line": 19,
+      "message": "Non-numeric user-id may not be resolvable by host system"
+    }
+  ]
+}
